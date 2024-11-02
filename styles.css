@@ -1,0 +1,46 @@
+body{
+    background-image: radial-gradient(#020C13,#010F14, #0B131E );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+.box__body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 10em;
+}
+
+.imgPerfil{
+    height: 10em;
+    margin: 0 0 0 4em;
+}
+
+.titulo__texto{
+    color: #C7DBE6;
+}
+
+.box__body__sublista{
+    padding: 0 3em 0 3em;
+}
+
+.subtitulo__texto{
+    color: #C7DBE6;
+    font-size: 20px;
+}
+
+.lista__links{
+    margin: 3em 3em 3em 3em;
+}
+
+.item__link{
+    margin: 2%;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    border-color: #183642;    
+    color: #000000;
+    font-size: 18px;
+}
