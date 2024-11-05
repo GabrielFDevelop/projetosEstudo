@@ -21,9 +21,12 @@ body{
 
     .imgPerfil{
         height: 10em;
+        border-style: outset;
+        border-color: #06BCC1;
+        border-radius: 50%;
     }
     .titulo__texto{
-        font-size: 16px;
+        font-size: 18px;
         color: #C7DBE6;
     }
 }
@@ -37,7 +40,7 @@ body{
         text-align: center;
         justify-content: center;
         color: #C7DBE6;
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .lista__links{
@@ -45,28 +48,29 @@ body{
 
         .item__link{
             display: flex;
-            margin-right: 2em;
+            margin-right: 1em;
+            margin: 7px 0 7px 0;
 
             .button__link{
                 display: flex;
                 align-items: center;
                 background-color: #313D5A;
-                border: solid;
+                border: none;
                 border-color: #183642;
                 border-radius: 15px;
-                width: 15em;
-                margin: 4px 0 4px 0;
+                width: 18em;
+                margin: 7px 0 7px 0;
             }
 
             .img__rede{
-                margin-right: 3em;
+                margin-right: 4em;
             }
 
             .link__rede{
                 display: flex;
                 text-decoration: none;
                 color: #000000;
-                font-size: 18px;
+                font-size: 22px;
             }
 
             :hover{
