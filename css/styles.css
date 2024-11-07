@@ -1,7 +1,6 @@
 body{
     background-image: linear-gradient(30deg, #100e2b, #020C13,#010F14, #0B131E, #100e2b);
     background-repeat: no-repeat;
-    background-size: cover;
     height: 100vh;
     margin: 0;
 }
@@ -11,14 +10,14 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 5%;
+    padding-top: 2em;
 }
 
 .destaque__perfil{
     display: grid;
     align-items: center;
     justify-content: center;
-    margin-bottom: 3em;
+    margin: 2em 0 3em 0;
 
     .imgPerfil{
         height: 10em;
@@ -27,6 +26,7 @@ body{
         border-radius: 50%;
         margin: 0 0 1em 15px;
     }
+
     .titulo__texto{
         font-size: 20px;
         background-image: linear-gradient(to left, #C7DBE6, #B9D2DF, #659BB8, #477D9A,#40718C);
@@ -37,56 +37,79 @@ body{
 }
 
 .box__body__sublista{
-
+    display: grid;
     .subtitulo__texto{
         text-align: center;
         justify-content: center;
         color: #C7DBE6;
         font-size: 30px;
-        margin: 0 0 35px 20px;
+        margin: 15px 0 25px 20px;
     }
 
-    .lista__links{
-        align-items: center;
+    .box__buttons{
+        align-items: center;  
 
-        .item__link{
-            display: flex;
-            margin: 25px 0 25px 10px;
+        .lista__button{
+            margin: 0 0 40px 0;
+            .button__lista{
+                margin: 0px 0 40px 10px;
+                
+                .button__link{
+                    border-radius: 15px;
+                    text-decoration: none;
 
-            .button__link{
-                display: flex;
-                align-items: center;
-                background-color: #313D5A;
-                border-color: #183642;
-                border-radius: 15px;
-                width: 18em;
-                padding: 10px 10px 10px 10px;
-            }
+                }
 
-            .img__rede{
-                margin-right: 4em;
-            }
+                .button__pg{
+                    display: flex;
+                    align-items: center;
+                    background-color: #313D5A;
+                    border-radius: 15px;
+                    width: 18em;
+                    padding: 10px 10px 10px 10px;
+                    font-size: 18px;
+                }
 
-            .link__rede{
-                display: flex;
-                border-radius: 15px;
-                text-decoration: none;
-                font-size: 22px;
-            }
+                :hover{
+                    border-radius: 20px;
+                    background-color: #415176;
+                    cursor:pointer
+                }
+                
+                :active{
+                    background-color: #06BCC1;
+                    border-radius: 25px;
+                }
 
-            :hover{
-                display: flex;
-                border-radius: 15px;
-                background-color: #415176;
-                cursor:pointer
+                .img__rede{
+                    margin-right: 4em;
+                }
             }
         }
     }
 }
 
+.box__footer{
+    background-image: linear-gradient(80deg, #17143a, #041420,#021b24, #131f31, #151335);
 
+}
 
+.footer__titulo{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 1em 1em;
+}
 
+.box__criadores{
 
-
-
+    .lista__criadores{
+        display: flex;
+        justify-content: space-around;
+        margin: 0 1em 0 0;
+        
+        .nome__criadores{
+            margin: 0 0 2em 0;
+        }
+    }
+}
