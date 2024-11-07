@@ -38,7 +38,7 @@ body{
 }
 
 .box__body__sublista{
-
+    display: grid;
     .subtitulo__texto{
         text-align: center;
         justify-content: center;
@@ -48,7 +48,6 @@ body{
     }
 
     .box__buttons{
-        display: flex;
         align-items: center;  
 
         .lista__button{
@@ -72,8 +71,7 @@ body{
                 }
 
                 :hover{
-                    display: flex;
-                    border-radius: 15px;
+                    border-radius: 20px;
                     background-color: #415176;
                     cursor:pointer
                 }
