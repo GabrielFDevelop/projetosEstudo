@@ -43,21 +43,22 @@ body{
         justify-content: center;
         color: #C7DBE6;
         font-size: 30px;
-        margin: 15px 0 25px 20px;
+        margin: 15px 0 25px 30px;
     }
 
     .box__buttons{
         align-items: center;  
 
         .lista__button{
-            margin: 0 0 40px 0;
+            margin: 15px 0 0 0;
+
             .button__lista{
-                margin: 0px 0 40px 10px;
+                margin: 0px 0 40px 0px;
                 
                 .button__link{
                     border-radius: 15px;
                     text-decoration: none;
-
+                    
                 }
 
                 .button__pg{
@@ -68,6 +69,7 @@ body{
                     width: 18em;
                     padding: 10px 10px 10px 10px;
                     font-size: 18px;
+
                 }
 
                 :hover{
@@ -89,8 +91,8 @@ body{
     }
 }
 
-.box__footer{
-    background-image: linear-gradient(80deg, #17143a, #041420,#021b24, #131f31, #151335);
+footer{
+    background-image: linear-gradient(90deg, #100e2b, #041420,#021b24, #131f31, #010F14);
 
 }
 
