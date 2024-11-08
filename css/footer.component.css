@@ -1,0 +1,25 @@
+.footer__titulo{
+    color: #2F5068;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0em 1em;
+}
+
+.box__criadores{
+
+    .lista__criadores{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 1em 0 0;
+        .nome__criadores{
+            margin: 0 1em 1em 0;
+        }
+        
+        .criador__link{
+            color: #355A74;
+            text-decoration: none;
+        }
+    }
+}
