@@ -1,0 +1,26 @@
+.box__header{
+    display: grid;
+    justify-content: center;
+}
+
+.header__titulo{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0 0 0;
+}
+
+.menu__header__lista{
+    display: flex;
+    list-style: none;
+    justify-items: center;
+}
+
+.item__home{
+    margin: 0 7em 0 0;
+    text-decoration: none;
+}
+
+.item__lista__sobremim{
+    margin: 0 0 0 7em;
+    text-decoration: none;
+}

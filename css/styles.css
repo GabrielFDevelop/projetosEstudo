@@ -2,6 +2,11 @@
 @import url("body.component.css");
 @import url("footer.component.css");
 
+header{
+    background-image: linear-gradient(30deg,#010a0f, #09071a,#010F14, #0B131E, #100e2b);
+    height: 15vh;
+}
+
 body{
     background-image: linear-gradient(30deg, #100e2b, #020C13,#010F14, #0B131E, #100e2b);
     background-size: cover;
