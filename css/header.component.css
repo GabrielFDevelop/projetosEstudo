@@ -30,6 +30,17 @@
     text-decoration: none;
 }
 
+.item__lista__sobremim:hover{
+    color: #D99AC5;
+    background-color: #363f58;
+    padding: 3px 15px 3px 5px;
+    border-radius: 10px;
+}
+
+.item__lista__sobremim:active{
+    color: #45527c;
+}
+
 .menu__lista__sobremim{
     list-style: none;
     list-style-type: none;
