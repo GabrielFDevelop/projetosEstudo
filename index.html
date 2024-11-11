@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Páginas</title>
     <link rel="stylesheet" href="./css/styles.css">
-    <script src="buttons.js"></script>
 </head>
 
-<header>
-    <div class="box__header">
+<body>
+    <header>
         <h1 class="header__titulo">Home</h1>
-        <div class="menu__header">
-            <ul class="menu__header__lista">
+
+        <nav class="menu__nav">
+            <ul class="menu__nav__lista">
                 <li class="menu__item">
                     <a class="item__home" href="#">Home</a>
                 </li>
                 <li class="menu__item">
-                    <a class="item__lista__sobremim" href="#">Sobre Mim</a>
+                    <a class="item__sobremim" href="#">Sobre Mim</a>
                     <ul class="menu__lista__sobremim">
                         <li class="lista__sobremim__qs lista__item">
                             <a class="link__item" href="#">Quem Sou Eu?</a>
@@ -32,18 +32,16 @@
                     </ul>
                 </li>
             </ul>
-        </div>
-    </div>
-</header>
+        </nav>
+    </header>
 
-<body>
-    <div class="box__body">
-        <div class="destaque__perfil">
+    <main class="body__main">
+        <article class="destaque__perfil">
             <img class="imgPerfil" src="./assets/images/imgPerfil/WhatsApp Image 2024-10-21 at 1.55.11 PM.jpeg" alt="imgPerfil">
             <h1 class="titulo__texto">@gabriel.assisfreitas</h1>
-        </div>
+        </article>
         
-        <div class="box__body__sublista">
+        <section class="box__body__sublista">
             <h2 class="subtitulo__texto">Acesse minhas Páginas</h2>
             <div class="box__buttons">
                 <ul class="lista__button">
@@ -61,28 +59,30 @@
                     </li>
                 </ul>
             </div>
-        </div>
-    </div>
-</body>
+        </section>
+    </main>
 
-<footer>    
-    <div class="box__footer">
-        <div class="footer__titulo">
-            <h2 class="apre__footer">Criado por</h2>
+    <footer>    
+        <div class="box__footer">
+            <div class="footer__titulo">
+                <h2 class="apre__footer">Criado por</h2>
+            </div>
+            <div class="box__criadores">
+                <ul class="lista__criadores">
+                    <li class="nome__criadores">
+                        <a href="" class="criador__link">Gabriel Freitas</a>
+                    </li>
+                    <li class="nome__criadores">
+                        <a href="https://alura.com.br" class="criador__link">Alura</a>
+                    </li>
+                    <li class="nome__criadores">
+                        <a href="https://app.rocketseat.com.br" class="criador__link">Rocketseat</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="box__criadores">
-            <ul class="lista__criadores">
-                <li class="nome__criadores">
-                    <a href="" class="criador__link">Gabriel Freitas</a>
-                </li>
-                <li class="nome__criadores">
-                    <a href="https://alura.com.br" class="criador__link">Alura</a>
-                </li>
-                <li class="nome__criadores">
-                    <a href="https://app.rocketseat.com.br" class="criador__link">Rocketseat</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</footer>
+    </footer>
+    
+<script src="buttons.js"></script>
+</body>
 </html>

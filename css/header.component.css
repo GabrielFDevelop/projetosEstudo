@@ -1,8 +1,3 @@
-.box__header{
-    display: grid;
-    justify-content: center;
-}
-
 .header__titulo{
     display: flex;
     color: #56638A;
@@ -10,34 +5,31 @@
     margin: 5px 0 0 0;
 }
 
-.menu__header__lista{
+.menu__nav__lista{
     display: flex;
     list-style: none;
-    justify-items: center;
+    justify-content: space-around;
     font-size: 20px;
 }
 
-
 .item__home{
     color: #D99AC5;
-    margin: 0 5em 0 0;
     text-decoration: none;
 }
 
-.item__lista__sobremim{
+.item__sobremim{
     color: #D99AC5;
-    margin: 0 0 0 7em;
     text-decoration: none;
 }
 
-.item__lista__sobremim:hover{
+.item__sobremim:hover{
     color: #D99AC5;
     background-color: #363f58;
     padding: 3px 15px 3px 5px;
     border-radius: 10px;
 }
 
-.item__lista__sobremim:active{
+.item__sobremim:active{
     color: #45527c;
 }
 
@@ -53,7 +45,7 @@
 
 .link__item{
     text-decoration: none;
-    margin: 0 0 0 6em;
+    margin: 0 0 0 1px;
     color: #1097BC;
     font-size: 16px;
 }
