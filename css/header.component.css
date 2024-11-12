@@ -13,13 +13,14 @@
 
 .button__nav{
     background: none;
-    border: solid #D99AC5;
+    border: none;
     border-radius: 8px;
 }
 
 .button__nav:hover{
     color: #D99AC5;
     background-color: #363f58;
+    border: solid #363f58;
 }
 
 .button__home{
@@ -50,14 +51,7 @@
     display:none;
     background-color: #363f58;
     border-radius: 10px;
-
-}
-
-.button__listheader:hover{
-    color: #fff;
-    border: solid;
-    border-radius: 10px;
-    
+    padding: 0;
 }
 
 .button__listheader{
@@ -69,8 +63,20 @@
     background:none;
     font-size: 16px;
     border: none;
-    border-radius: 10px;
     padding: 10px 20px 10px 15px;
+    background-color: #363f58;
+}
+
+.button__listheader:hover{
+    color: #fff;
+    border: solid;
+    border-radius: 10px;
+    background-color: #415176;
+}
+
+.button__listheader:active{
+    background-color: #06BCC1;
+    border-radius: 20px;
 }
 
 .menu__nav li:hover ul, .menu__nav li.over ul{display:block;}
