@@ -1,6 +1,6 @@
 .header__titulo{
     display: flex;
-    color: #56638A;
+    color: #fff;
     justify-content: center;
     margin: 5px 0 0 0;
 }
@@ -9,43 +9,83 @@
     display: flex;
     list-style: none;
     justify-content: space-around;
-    font-size: 20px;
 }
 
-.item__home{
-    color: #D99AC5;
-    text-decoration: none;
+.button__nav{
+    background: none;
+    border: none;
+    border-radius: 8px;
 }
 
-.item__sobremim{
-    color: #D99AC5;
-    text-decoration: none;
-}
-
-.item__sobremim:hover{
+.button__nav:hover{
     color: #D99AC5;
     background-color: #363f58;
-    padding: 3px 15px 3px 5px;
-    border-radius: 10px;
+    border: solid #363f58;
+
 }
 
-.item__sobremim:active{
+.button__home{
+    color: #D99AC5;
+    font-size: 16px;
+    border: 5px 5px 5px 5px;
+    position: sticky;    
+    padding: 5px 7px 5px 7px;
+}
+
+.button__home:hover{
+    padding: 5px 7px 5px 7px;
+
+}
+.button__home:active{
     color: #45527c;
 }
 
-.menu__lista__sobremim{
-    list-style: none;
-    list-style-type: none;
-    margin: 1em 0 0 0;
-}
-
-.lista__item{
-    margin: 10px 0 0 10px;
-}
-
-.link__item{
+.button__sobremim{
+    color: #D99AC5;
     text-decoration: none;
-    margin: 0 0 0 1px;
-    color: #1097BC;
-    font-size: 16px;
+    font-size: 20px;
+    border: 7px 10px 7px 10px;
+    margin: 0 0 10px 0;
+    padding: 5px 7px 5px 7px;
 }
+
+.button__sobremim:hover{
+    border-radius: 10px;
+    padding: 5px 7px 5px 7px;
+}
+
+.menu__lista__sobremim{
+    list-style-type: none;
+    position:absolute;
+    display:none;
+    background-color: #363f58;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.button__listheader{
+    margin: 0;
+    width: 150px;
+    display: flex;
+    text-decoration: none;
+    color: #1097BC;
+    background:none;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px 10px 15px;
+    background-color: #363f58;
+}
+
+.button__listheader:hover{
+    color: #fff;
+    border: solid;
+    border-radius: 10px;
+    background-color: #415176;
+}
+
+.button__listheader:active{
+    background-color: #06BCC1;
+    border-radius: 20px;
+}
+
+.menu__nav li:hover ul, .menu__nav li.over ul{display:block;}

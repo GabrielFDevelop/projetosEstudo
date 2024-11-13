@@ -12,3 +12,8 @@ function buttonLinkedIn() {
     window.location.href="https://www.linkedin.com/in/gabriel-freitas-467b10297/";
     alert("Indo para o LinkedIn, aguarde ...");
 }
+
+function buttonNavHome() {
+    window.location.href="#";
+    alert("Indo para página inicial...");
+}

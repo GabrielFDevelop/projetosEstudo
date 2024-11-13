@@ -57,6 +57,7 @@
     display: flex;
     align-items: center;
     background-color: #313D5A;
+    border: solid;
     border-radius: 15px;
     width: 18em;
     padding: 10px 10px 10px 10px;
@@ -77,6 +78,25 @@
 .img__rede{
     margin-right: 4em;
 }
-            
-        
-    
+
+.button__instagram:hover{
+    background-image:linear-gradient(to right,#833ab4,#fd1d1d,#fcb045);
+}
+
+.button__github:hover{
+    color: #F0F6FC;
+    background-color: #0D1117;
+    .img__github{
+        background-color: #F0F6FC;
+        border-radius: 50%;
+    }
+}
+
+.button__linkedin:hover{
+    background-color: #007bb5;
+    color: white;
+    .img__linkedin{
+        background-color: white;
+        border-radius: 10%;
+    }
+}
