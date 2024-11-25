@@ -1,4 +1,4 @@
-.body__main{
+.bodyMain{
     display: grid;
     align-items: center;
     justify-content: center;
@@ -6,7 +6,7 @@
     padding-top: 2em;
 }
 
-.destaque__perfil{
+.destaquePerfil{
     display: grid;
     align-items: center;
     justify-content: center;
@@ -21,7 +21,7 @@
     margin: 0 0 1em 15px;
 }
 
-.titulo__texto{
+.tituloTexto{
     font-size: 20px;
     background-image: linear-gradient(to left, #C7DBE6, #B9D2DF, #659BB8, #477D9A,#40718C);
     background-clip: text;
@@ -29,11 +29,11 @@
     margin: 0 0 0 5px;
 }
 
-.box__body__sublista{
+.boxBodySublista{
     display: grid;
 }
 
-.subtitulo__texto{
+.subtituloTexto{
     text-align: center;
     justify-content: center;
     color: #C7DBE6;
@@ -41,19 +41,19 @@
     margin: 15px 0 25px 30px;
 }
 
-.box__buttons{
+.boxButtons{
     align-items: center;  
 }  
 
-.lista__button{
+.listaButton{
     margin: 15px 0 0 0;
 }
 
-.button__lista{
+.buttonLista{
     margin: 0px 0 40px 0px;
 }            
 
-.button__pg{
+.buttonPg{
     display: flex;
     align-items: center;
     background-color: #313D5A;
@@ -64,38 +64,38 @@
     font-size: 18px;
 }
 
-.button__pg:hover{
+.buttonPg:hover{
     border-radius: 20px;
     background-color: #415176;
     cursor:pointer
 }
                 
-.button__pg:active{
+.buttonPg:active{
     background-color: #06BCC1;
     border-radius: 25px;
 }  
 
-.img__rede{
+.imgRede{
     margin-right: 4em;
 }
 
-.button__instagram:hover{
+.buttonInstagram:hover{
     background-image:linear-gradient(to right,#833ab4,#fd1d1d,#fcb045);
 }
 
-.button__github:hover{
+.buttonGithub:hover{
     color: #F0F6FC;
     background-color: #0D1117;
-    .img__github{
+    .imgGithub{
         background-color: #F0F6FC;
         border-radius: 50%;
     }
 }
 
-.button__linkedin:hover{
+.buttonLinkedin:hover{
     background-color: #007bb5;
     color: white;
-    .img__linkedin{
+    .imgLinkedin{
         background-color: white;
         border-radius: 10%;
     }
